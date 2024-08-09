@@ -1,0 +1,95 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  
+  /* Search Container Styles */
+  
+  .search-container {
+    position: absolute;
+    top: 0;
+    width:100%;
+    z-index: 22;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+    padding: 1em;
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  
+  }
+  
+  .search-container input {
+    padding: 1em;
+    font-size: 16px;
+    border-radius: 10px 0 0 10px;
+    width: 40%;
+    background-color: #71b6eb;
+  }
+  
+  .search-container button {
+    padding: 1em 1.5em;
+    font-size: 16px;
+    margin-left: 10px;
+    width:fit-content;
+    cursor: pointer;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    background: #014975;
+    color: #fff;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .search-container button:hover {
+    background: rgb(133, 172, 213);
+    color:black;
+  }
+  
+  /* Animation */
+  
+  /* @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  } */
+  
+  /* Responsive Styles */
+  
+  @media (max-width: 768px) {
+    .search-container {
+      flex-direction: row;
+      padding: 1em 2em;
+    }
+    .search-container input {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .search-container button {
+      /* margin-top: 1em; */
+      border-radius: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .search-container {
+      padding: 1em;
+    }
+    .search-container input {
+      padding: 0.5em;
+    }
+    .search-container button {
+      padding: 0.5em 1em;
+    }
+  }
