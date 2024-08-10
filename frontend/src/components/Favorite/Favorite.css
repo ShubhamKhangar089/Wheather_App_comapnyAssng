@@ -1,0 +1,40 @@
+.favorite-container {
+    position: absolute;
+    top:5%;
+    width:100%;
+  }
+  .fav-nav {
+   display: flex;
+   justify-content: space-around;
+   
+  }
+  
+  .favorite-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .favorite-container li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    padding: 5px 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+  }
+  
+  .favorite-container li span {
+    cursor: pointer;
+    flex: 1;
+  }
+  
+  .favorite-container li button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
