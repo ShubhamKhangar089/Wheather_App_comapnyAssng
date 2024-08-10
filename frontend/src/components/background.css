@@ -7,7 +7,8 @@
   }
   
   .background-inner {
-    background-image:  url('../imgaes/cloud-sky-rain-atmosphere-weather-storm-1091303-pxhere.com.jpg');
+    background-image:  url('/imgaes/cloud-sky-rain-atmosphere-weather-storm-1091303-pxhere.com.jpg');
+    /* background-image: url(${require('../images/cloud-sky-rain-atmosphere-weather-storm-1091303-pxhere.com.jpg')}); */
     background-size: 100% 100%;
     height: 100vh;
     width: 150vw; 
